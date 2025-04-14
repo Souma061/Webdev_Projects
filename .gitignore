@@ -1,0 +1,26 @@
+# Ignore compiled files
+*.exe
+*.out
+*.obj
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system and user files
+AppData/
+*.log
+*.tmp
+*.bak
+
+# Ignore extension files
+*.cson
+*.less
+*.coffee
+
+# Ignore Windows-specific user data and AppData
+AppData/
+*.exe
+
+# Ignore node-related files if present
+node_modules/
+package-lock.json
